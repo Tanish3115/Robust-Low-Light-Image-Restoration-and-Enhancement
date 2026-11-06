@@ -1,0 +1,16 @@
+services:
+  lumarestore:
+    build:
+      context: .
+      target: full
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - ./outputs:/app/outputs
+      - ./checkpoints:/app/checkpoints:ro
+    environment:
+      LUMA_DEVICE: cpu
+      LUMA_ENABLE_IQA: 'true'
+      LUMA_MAX_PROCESS_SIDE: 2048
+      LUMA_CORS_ORIGINS: '["http://127.0.0.1:8000"]'
+    restart: unless-stopped

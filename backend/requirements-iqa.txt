@@ -1,0 +1,4 @@
+-r requirements-deep.txt
+pyiqa==0.1.13
+opencv-python==4.11.0.86
+opencv-python-headless==4.11.0.86

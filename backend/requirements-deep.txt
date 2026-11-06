@@ -1,0 +1,4 @@
+-r requirements.txt
+torch==2.7.0
+torchvision==0.22.0
+einops==0.8.1

@@ -1,0 +1,10 @@
+{
+  "lol-v1": {"paired":true,"train_count":485,"test_count":15,"train_input":"our485/low","train_reference":"our485/high","test_input":"eval15/low","test_reference":"eval15/high"},
+  "lol-v2-real": {"paired":true,"train_count":689,"test_count":100,"train_input":"Real_captured/Train/Low","train_reference":"Real_captured/Train/Normal","test_input":"Real_captured/Test/Low","test_reference":"Real_captured/Test/Normal"},
+  "lol-v2-synthetic": {"paired":true,"train_count":900,"test_count":100,"train_input":"Synthetic/Train/Low","train_reference":"Synthetic/Train/Normal","test_input":"Synthetic/Test/Low","test_reference":"Synthetic/Test/Normal"},
+  "dicm": {"paired":false,"test_input":"."},
+  "lime": {"paired":false,"test_input":"."},
+  "npe": {"paired":false,"test_input":"."},
+  "mef": {"paired":false,"test_input":"."},
+  "fivek": {"paired":true,"manual_paths":true,"note":"Supply matching input/reference directories under your dataset license; expert retouching choice must be documented."}
+}

@@ -1,0 +1,1 @@
+{"tile_size":1024,"tile_overlap":32,"device":"cpu","enable_iqa":true,"max_process_side":2048,"checkpoint":"checkpoints/LOL_v1.pth"}
