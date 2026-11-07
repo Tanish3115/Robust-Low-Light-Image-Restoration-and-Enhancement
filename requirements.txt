@@ -1,0 +1,11 @@
+# Streamlit Community Cloud (Python 3.11). Desktop/Docker requirements remain in backend/.
+--extra-index-url https://download.pytorch.org/whl/cpu
+streamlit==1.67.0
+torch==2.7.0+cpu
+einops==0.8.1
+numpy==2.2.5
+opencv-python-headless==4.11.0.86
+Pillow==11.2.1
+scipy==1.15.2
+scikit-image==0.25.2
+pydantic-settings==2.9.1

@@ -91,3 +91,7 @@ docker compose up --build
 Compose uses the full CPU image, serves the built frontend on port 8000, and mounts project checkpoints read-only. Stop the native backend first if it already uses that port. Provision checkpoint/metric assets before starting Compose. A `classical` Docker build target is also available.
 
 See [verification evidence](VERIFICATION.md) and the [master-prompt implementation audit](TASK_COMPLETION.md). Actual CUDA execution and browser visual inspection remain environment-limited; automated frontend, HTTP, CPU-model, metric, dataset and container checks have run.
+
+## Free Streamlit demo hosting
+
+Deploy `streamlit_app.py` from branch `main` on Streamlit Community Cloud, using Python 3.11. The root `requirements.txt` contains the CPU demo dependencies. See [the deployment procedure](docs/STREAMLIT_DEPLOYMENT.md) for local testing, GitHub settings, model caching, and cloud resource limits. This interface reuses the restoration pipelines; the complete React/FastAPI application remains available separately.
